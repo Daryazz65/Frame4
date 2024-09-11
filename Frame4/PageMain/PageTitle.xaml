@@ -9,7 +9,6 @@
       Title="PageTitle">
 
     <Grid>
-      <Image Source="/Resourse/Title.png" />
 
     </Grid>
 </Page>
