@@ -1,0 +1,17 @@
+﻿<Page x:Class="Frame4.PageMain.PageMenu"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Frame4.PageMain"
+      mc:Ignorable="d" 
+      d:DesignHeight="250" d:DesignWidth="200"
+      Title="PageMenu">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10 10 1 22" Height="600" Width="200">
+            <TextBlock Height="70" ><Hyperlink x:Name="HL1" FontSize="25"><Run Text="Директор"/></Hyperlink></TextBlock>
+            <TextBlock Height="76" ><Hyperlink x:Name="HL2" FontSize="25"><Run Text="Юрист"/></Hyperlink></TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>
